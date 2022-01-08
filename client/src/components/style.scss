@@ -1577,9 +1577,19 @@ button:hover {
   background-color: #D52CAC;
 }
 
- .md-progress-bar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
+.md-progress-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.md-icon-button {
+  width: 60px;
+}
+
+.md-disabled {
+  .md-icon {
+    display: none;
   }
+}
